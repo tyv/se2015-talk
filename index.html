@@ -11,6 +11,28 @@
 		{
 			font-weight: bold;
 		}
+
+		.white
+		{
+			color: rgba(255,255,255,0.7) !important;
+		}
+
+		.black
+		{
+			color: rgba(0,0,0,0.7) !important;
+		}
+
+		.black-shadow
+		{
+			text-shadow: 0 2px 4px rgba(0,0,0,0.75)
+		}
+
+		.onwhite
+		{
+			display: inline-block;
+			padding: 5px 10px;
+			background: rgba(255,255,255,0.7);
+		}
 	</style>
 </head>
 <body class="list">
@@ -18,14 +40,16 @@
 		<h1>Your build failed. Again.</h1>
 		<p>@yuritkachenko, github/tyv</p>
 	</header>
-	<section class="slide"><div>
-		<h2>Your build failed. Again.</h2>
-		<p>Юра Ткаченко</p>
-
+	<section class="slide cover"><div>
+	</div></section>
+	<section class="slide cover"><div>
+		<h2 class="white">Your build failed. Again.</h2>
+		<p style="color: rgba(255,255,255,0.7); border-top: 1px solid">Юра Ткаченко</p>
+		<img src="pictures/gifs/build-failed.gif" style="height: 100%" alt="">
 	</div></section>
 
 	<section class="slide"><div>
-		<h2>Технологии бегут как ужаленые</h2>
+		<h2>Технологии бегут как ужаленые <img src="pictures/gifs/Mario-Running.gif" style="vertical-align: middle" alt=""></h2>
 		<ul>
 			<li>Нужно бежать</li>
 			<li>Вчерашние решения сегодня устаревшая ерунда</li>
@@ -33,8 +57,10 @@
 		</ul>
 	</div></section>
 
-	<section class="slide"><div>
-		<h2>История</h2>
+	<section class="slide cover"><div>
+		<h2 class="white">История</h2>
+		<img src="pictures/gifs/history.gif" style="height: 100%" alt="">
+
 	</div></section>
 
 	<section class="slide"><div>
@@ -58,7 +84,7 @@
 			<li>ACID2</li>
 			<li>CSS ZenGarden</li>
 		</ul>
-
+		<img class="place" style="right: 0; left: auto;" src="pictures/gifs/acid2.gif" alt="">
 	</div></section>
 
 	<section class="slide"><div>
@@ -78,8 +104,9 @@
 	</div></section>
 
 
-	<section class="slide shout"><div>
-		<h2>Инфраструктура</h2>
+	<section class="slide shout cover"><div>
+		<h2 class="white">Инфраструктура</h2>
+		<img src="pictures/gifs/infrastructure.gif" style="height: 100%" alt="">
 	</div></section>
 
 	<section class="slide"><div>
@@ -132,9 +159,11 @@
 		</pre>
 	</div></section>
 
-	<section class="slide"><div>
-		<h2>Бум MVC</h2>
-		<p>Вчера MVC, сегодня Flux</p>
+	<section class="slide cover"><div>
+		<h2 class="black"><span class="onwhite">Бум MVC</span></h2>
+		<p class="black"><span class="onwhite">Вчера MVC, сегодня Flux</span></p>
+		<img src="pictures/gifs/mvc.gif" style="height: 100%" alt="">
+
 	</div></section>
 
 
@@ -192,15 +221,16 @@
 		</ul>
 	</div></section>
 
-	<section class="slide"><div>
-		<h2>Что еще сломается?</h2>
+	<section class="slide cover shout"><div>
+		<h2 class="white">Что еще сломается?</h2>
+		<img src="pictures/gifs/what-else.gif" style="height: 100%" alt="">
 	</div></section>
 
 
 	<section class="slide"><div>
 		<h2>Что еще сломается?</h2>
 		<h3>пакетные менеджеры и репозитории</h3>
-		<p><img src="pictures/github.png" alt="github 500 error"></p>
+		<p class="next"><img src="pictures/github.png" alt="github 500 error" style="width: 70%"></p>
 	</div></section>
 
 	<section class="slide"><div>
@@ -281,19 +311,29 @@
 		</ul>
 	</div></section>
 
-	<section class="slide"><div>
-		<h2>Not enough</h2>
-		<p>Чем больше проект, тем больше правил нужно использовать</p>
+	<section class="slide cover"><div>
+		<h2 class="black">Not enough</h2>
+		<p class="black"><span class="onwhite">Чем больше проект, тем больше правил нужно использовать</span></p>
+		<img src="pictures/gifs/not-enought.gif" alt="" style="width: 100%">
 	</div></section>
 
-	<section class="slide"><div>
-		<h2>Not enough</h2>
-		<h3>Не бойтесь изобретать</h3>
+	<section class="slide cover"><div>
+		<h2 class="white black-shadow">Not enough</h2>
+		<h3 class="white black-shadow">Не бойтесь изобретать</h3>
+		<img src="pictures/gifs/invent.gif" alt="" style="height: 100%">
+	</div></section>
+
+	<section class="slide cover"><div>
+		<h2 class="white black-shadow">Вопросы</h2>
+		<p class="white black-shadow">@yuritkachenko</p>
+		<img src="pictures/gifs/q.gif" alt="" style="width: 100%; height 80%; margin-top: -40%;">
+
 	</div></section>
 
 	<section class="slide"><div>
 		<h2>Вопросы</h2>
 		<p>@yuritkachenko</p>
+
 	</div></section>
 
 
